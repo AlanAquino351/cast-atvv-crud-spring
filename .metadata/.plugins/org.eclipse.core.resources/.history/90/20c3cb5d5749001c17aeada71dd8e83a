@@ -1,0 +1,5 @@
+package com.br.cast.treinamento.crud.services;
+
+public class UsuarioService {
+
+}

@@ -1,0 +1,5 @@
+package com.br.cast.treinamento.crud.model;
+
+public class Usuario {
+
+}

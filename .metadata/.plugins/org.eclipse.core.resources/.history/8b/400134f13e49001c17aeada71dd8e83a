@@ -1,0 +1,14 @@
+package com.br.cast.treinamento.crud.model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Usuario {
+	
+	private Integer id;
+	private String nome;
+	private int idade;
+	
+	
+	
+}

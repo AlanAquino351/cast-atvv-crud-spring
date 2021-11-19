@@ -1,0 +1,18 @@
+package com.br.cast.treinamento.crud.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.br.cast.treinamento.crud.repository.UsuarioRepository;
+
+@RestController
+public class GreetingsController {
+
+	@Autowired
+	private UsuarioRepository usuarioRepository;
+	
+	
+	public String insert(@PathVariable String nome, @PathVariable int idade)
+	
+}
